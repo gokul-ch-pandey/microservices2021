@@ -1,1 +1,3 @@
 # microservices2021
+
+1. Use https://github.com/gokul-ch-pandey/microservices2021/tree/main/code/1-spring/introduction/transaction-service for intial Understanding of Simple Maven Project. There are some design issue with this project as dependencies are tightly coupled with dependent classes i.e Objects are created Using new operator (line 7 at https://github.com/gokul-ch-pandey/microservices2021/blob/main/code/1-spring/introduction/transaction-service/src/main/java/Application.java) which is a serious performance issue. The project is not easily extendable and not adhering to OOPs concepts like abstraction, Inheritance. The project is lacking proper logging an d configuration management framework. These issues will be addressed in the next section. 
